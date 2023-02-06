@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="screen_time.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="screen_time.js" defer></script>
+        <script src="display_info.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <div class="timeline_container">
+                <input type="radio" id="day" name="timeline" checked>
+                <label for="day" class="timeline_label">Day</label>
+                <input type="radio" id="week" name="timeline">
+                <label for="week" class="timeline_label">Week</label>
+                <input type="radio" id="month" name="timeline">
+                <label for="month" class="timeline_label">Month</label>
+                <input type="radio" id="year" name="timeline">
+                <label for="year" class="timeline_label">Year</label>
+                <input type="radio" id="all" name="timeline">
+                <label for="all" class="timeline_label">All</label>
+            </div>
+            <div class="main_content_container">
+                <div class="top_info">
+                    <p class="sub_message">Today:</p>
+                    <div class="top_info_right">
+                        <p class="version">v1.0</p>
+                        <button class="switch_theme">
+                            <span class="material-symbols-outlined">
+                                dark_mode
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="main_info">
+                    <h1 class="clock">-- --</h1>
+                </div>
+                <div class="main_content">
+                    <div class="main_content_left">
+                                 
+                    </div>
+                    <div class="main_content_right">
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

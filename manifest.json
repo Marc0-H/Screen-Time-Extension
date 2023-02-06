@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "White Popup Extension",
+  "version": "1.0",
+  "description": "Opens a white popup when the extension icon is clicked.",
+  "browser_action": {
+    "default_popup": "screen_time.html"
+  },
+
+  "background": {
+    "scripts": [
+      "tab_listener.js"
+    ]
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
